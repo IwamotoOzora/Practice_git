@@ -5,4 +5,4 @@ def eat(breakfast, lunch, dinner="カレー", *desserts):
     for dessert in desserts:
         print("おやつに{}を食べました".format(dessert))
 
-eat("トースト", "パスタ", "カレー", "アイス", "バナナ", "スープ")
+eat("トースト", "パスタ", "カレー", "アイス", "バナナ", "スープカレー")
